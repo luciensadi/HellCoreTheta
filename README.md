@@ -32,6 +32,6 @@ run
 ```shell
 ./autogen.sh && ./configure && make
 
-#### Additions
+### Additions
 
 The following is a (hopefully) complete list of what has been added/changed in this fork:
