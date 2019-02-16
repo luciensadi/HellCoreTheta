@@ -9,6 +9,7 @@ Source code for the HellCore project, a fork of LambdaMOO.
 * gcc
 * gperf
 * libstdc++
+* libgdbm3-dev
 * make
 * sed
 
