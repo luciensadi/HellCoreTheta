@@ -41,3 +41,10 @@ The following is a (hopefully) complete list of what has been added/changed in t
 * Syntax update, so var = var+1 becomes ++var, var = var -1 becomes --var etc.
 * get_pid: Easily get the process ID of the server.
 * server_shutdown: Behaves as an opposite to server_started, that is that if a verb on $sysobj called server_shutdown exists, it'll be executed upon a server shutdown.
+
+##### Credits
+
+A big thanks goes out to [Jason SW](https://github.com/jasonhsw) for his tremendous support and contributions. Without him, this wouldn't have been possible.
+
+And of course, a big thanks goes out to the original developers of the HellCore and LambdaMOO server.
+
