@@ -29,8 +29,9 @@ If you are familiar with the standard Linux/Unix build process, you can instead
 run
 ```shell
 ./autogen.sh && ./configure && make
+```
 
-### Additions
+#### Additions
 
 The following is a (hopefully) complete list of what has been added/changed in this fork:
 
@@ -39,4 +40,4 @@ The following is a (hopefully) complete list of what has been added/changed in t
 * Handle Argstr patch
 * Syntax update, so var = var+1 becomes ++var, var = var -1 becomes --var etc.
 * get_pid: Easily get the process ID of the server.
-* server_shutdown: Behaves as an opposite to server_started, that is that if a verb on $sysobj called server_shutdown, it'll be executed upon a server shutdown.
+* server_shutdown: Behaves as an opposite to server_started, that is that if a verb on $sysobj called server_shutdown exists, it'll be executed upon a server shutdown.
